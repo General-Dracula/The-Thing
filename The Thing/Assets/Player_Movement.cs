@@ -17,8 +17,9 @@ public class Player_Movement : MonoBehaviour
 
     private enum MovementState { idle, running, jumping, falling}
 
-    MovementState state = MovementState.idle;
+    private MovementState state = MovementState.idle;
 
+    [SerializeField] private AudioSource jumpSound; 
 
 
     void Start()
@@ -55,6 +56,7 @@ public class Player_Movement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isPlayerOnGround()) //if the jump is pressed then jump
         {
             playerBody.velocity = new Vector2(playerBody.velocity.x, jumpForce);
+            jumpSound.Play();
         }
 
         if (playerBody.velocity.y < -.1f)

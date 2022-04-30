@@ -9,6 +9,8 @@ public class DeathScript : MonoBehaviour
     private Animator animator;
     private Rigidbody2D playerBody;
     // Start is called before the first frame update
+
+    [SerializeField] private AudioSource deathSound;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -19,6 +21,7 @@ public class DeathScript : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Deadly things"))
         {
+            deathSound.Play();
             PlayerDies();
         }
     }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Points
   - Deadly things
+  - FinishLine
   layers:
   - Default
   - TransparentFX
