@@ -15,7 +15,7 @@ C:/Users/dobre/The-Thing/The Thing
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-60959
+60788
 Successfully changed project path to: C:/Users/dobre/The-Thing/The Thing
 C:/Users/dobre/The-Thing/The Thing
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/dobre/The-Thing/The Thing
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 72.93 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 73.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -63,93 +63,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006965 seconds.
+Registered in 0.007161 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 73.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 75.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.516 seconds
+- Completed reload, in  0.510 seconds
 Domain Reload Profiling:
-	ReloadAssembly (516ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (510ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (367ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (360ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (75ms)
+			SetupTypeCache (74ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (229ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
+				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009523 seconds.
+Registered in 0.006062 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\dobre\The-Thing\The Thing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\dobre\The-Thing\The Thing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 72.57 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 76.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.902 seconds
+- Completed reload, in  0.907 seconds
 Domain Reload Profiling:
-	ReloadAssembly (903ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (908ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (709ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (177ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (382ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (381ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3933 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (226.0 KB). Loaded Objects now: 4388.
-Memory consumption went from 149.7 MB to 149.5 MB.
-Total: 3.947300 ms (FindLiveObjects: 0.346300 ms CreateObjectMapping: 0.230600 ms MarkObjects: 3.123000 ms  DeleteObjects: 0.246800 ms)
+Unloading 3934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (226.0 KB). Loaded Objects now: 4389.
+Memory consumption went from 149.8 MB to 149.5 MB.
+Total: 3.597400 ms (FindLiveObjects: 0.306400 ms CreateObjectMapping: 0.184300 ms MarkObjects: 2.944100 ms  DeleteObjects: 0.161600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,34 +163,112 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 123190.370175 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_56.asset
-  artifactKey: Guid(242ebfe6e34973e439e34cc567a6a0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_56.asset using Guid(242ebfe6e34973e439e34cc567a6a0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66b68542db8524e92bb4e9e217f0368') in 0.089994 seconds 
+  Time since last request: 124204.300101 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Background/Gray_10.asset
+  artifactKey: Guid(d23e8cdad6515d24bbe4b064c785d6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Background/Gray_10.asset using Guid(d23e8cdad6515d24bbe4b064c785d6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c509f4f93dd9467861c48c304f5d7ede') in 0.073314 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.137149 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Skull/Hit Wall 1 (52x54).png
-  artifactKey: Guid(54aabc49583d77e4587c8ce5ed94edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Skull/Hit Wall 1 (52x54).png using Guid(54aabc49583d77e4587c8ce5ed94edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4647c74270b3e92bedad715545ab146') in 0.085279 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_82.asset
+  artifactKey: Guid(2e676b666b0cb3646aeea286556a74d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_82.asset using Guid(2e676b666b0cb3646aeea286556a74d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94147fb260fd5b69dc8dd51cb7437aa') in 0.052242 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.927825 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Rocks/Rock1_Idle (38x34).png
-  artifactKey: Guid(419f1f3d5fcf8204389dd119348a56e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Rocks/Rock1_Idle (38x34).png using Guid(419f1f3d5fcf8204389dd119348a56e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657773ba1b0da0abb3a3ca7c1e434452') in 0.053429 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Background/Gray_15.asset
+  artifactKey: Guid(c99ae8c393a8bc84180d5dc7357914ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Background/Gray_15.asset using Guid(c99ae8c393a8bc84180d5dc7357914ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e97688d588228c7d331291abf00c26c') in 0.009067 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.652893 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/BlueBird/Hit (32x32).png
-  artifactKey: Guid(a84745caca919394ea0a3541417402d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/BlueBird/Hit (32x32).png using Guid(a84745caca919394ea0a3541417402d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f153bb741e79a6da4db82aa20157dc') in 0.027125 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Background/Gray_13.asset
+  artifactKey: Guid(24dae05761d835f408862f38e102143d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Background/Gray_13.asset using Guid(24dae05761d835f408862f38e102143d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8356852cfa6bc34d4ddc5e396bedfd4a') in 0.010993 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.620232 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Bat/Ceiling Out (46x30).png
-  artifactKey: Guid(18ded7077989ed04d8cbeaad2545a2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Bat/Ceiling Out (46x30).png using Guid(18ded7077989ed04d8cbeaad2545a2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfbf65228fa71b8e4be766bfd598261') in 0.030571 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_98.asset
+  artifactKey: Guid(0a80254579f51994e983fde132580b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_98.asset using Guid(0a80254579f51994e983fde132580b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca4a824f77f8073f4fbf1d4d1e7ac01') in 0.025702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_116.asset
+  artifactKey: Guid(c77cd4e5cd8fbf143ad21a821b6b9012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_116.asset using Guid(c77cd4e5cd8fbf143ad21a821b6b9012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036ec47565e02180255045e6b4a89f38') in 0.013969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Background/Gray_6.asset
+  artifactKey: Guid(f6371e0e1e70d664dab90fa3b037ab10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Background/Gray_6.asset using Guid(f6371e0e1e70d664dab90fa3b037ab10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32218b0c9dbe3a37e4f70e9f1776f599') in 0.009474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_74.asset
+  artifactKey: Guid(826a4781ac2b8f04499ed221ee261786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_74.asset using Guid(826a4781ac2b8f04499ed221ee261786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553776db882edae17c66fbe23adeaf5c') in 0.017366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_68.asset
+  artifactKey: Guid(2d39b2ac6fd5e844e88fefd2aaa3b5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_68.asset using Guid(2d39b2ac6fd5e844e88fefd2aaa3b5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dad21655e91c3773dfe18a2fd03c48') in 0.020079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_106.asset
+  artifactKey: Guid(2d718cf4c1ea35944b4d2c6945e92fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_106.asset using Guid(2d718cf4c1ea35944b4d2c6945e92fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe69dee3ddb7d68d4838b766598d18d') in 0.010476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_80.asset
+  artifactKey: Guid(51768cfa4ad9b6041bca41c3aa3a14f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_80.asset using Guid(51768cfa4ad9b6041bca41c3aa3a14f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec182a812e904b63f77046034ddcd2d1') in 0.009632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_78.asset
+  artifactKey: Guid(7d89dd15438eabc4dbc2f3afe7699528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_78.asset using Guid(7d89dd15438eabc4dbc2f3afe7699528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca32133f6f4b8111967848f75a801fb5') in 0.008937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_127.asset
+  artifactKey: Guid(741e981b4b7b36e40b021e1bbdb47684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_127.asset using Guid(741e981b4b7b36e40b021e1bbdb47684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413d9f12c4ba50f1d9c4cdec76c2fc35') in 0.009192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Background/Gray_0.asset
+  artifactKey: Guid(d5cebb85a81aa8947a7e280ffebd9ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Background/Gray_0.asset using Guid(d5cebb85a81aa8947a7e280ffebd9ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1db1b96e89d50c0761bb5ed0f4a7f7f') in 0.009748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_130.asset
+  artifactKey: Guid(aec288a8c3b672c46962fb64b901de29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_130.asset using Guid(aec288a8c3b672c46962fb64b901de29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8b60cf1af2ec1fe8823af6598a5b2f') in 0.011645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_117.asset
+  artifactKey: Guid(283efa00e14e14a4e919e2a34a2a54f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_117.asset using Guid(283efa00e14e14a4e919e2a34a2a54f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32936c48eee716e2a39151669bd25b7') in 0.010262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_94.asset
+  artifactKey: Guid(ad49a2b71284c5e4ab277933939a4bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_94.asset using Guid(ad49a2b71284c5e4ab277933939a4bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ea48eabd865445cb1cc29f890a079c') in 0.010016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_110.asset
+  artifactKey: Guid(ef0ef472e0785954ba2b6365d1ffe21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Teren Joc/Terrain (16x16)_110.asset using Guid(ef0ef472e0785954ba2b6365d1ffe21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06572f4a6f762d1c01dbb731626eff8') in 0.012939 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

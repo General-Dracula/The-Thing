@@ -17,7 +17,7 @@ public class PointSystem : MonoBehaviour
 
     private void Update()
     {
-        level = SceneManager.GetActiveScene().buildIndex + 1;
+        level = SceneManager.GetActiveScene().buildIndex;
         if (level != 1)
         {
             pointsTextField.text = "Points: " + points + "\n Level: " + level;
