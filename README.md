@@ -9,10 +9,10 @@
  Video Presentation: TBC
  
  Sources:
- -https://learn.unity.com/search/?k=%5B%22tag%3A58088f5f0909150077ca2bc6%22%2C%22lang%3Aen%22%2C%22t%3Atutorial%22%5D - Different unity tutorials
- -https://www.youtube.com/watch?v=2MImqNvgrNg - Tutorial about 2d platformers to know what to look for 
- -https://www.youtube.com/watch?v=VeJl4MjAPks - Tutorial for moving platforms
- -https://www.youtube.com/watch?v=zc8ac_qUXQY&t=681s - Start menu
- -Older collegue for setting up the animator(had problems with that)
- -Graphics music from the asset store
+  - https://learn.unity.com/search/?k=%5B%22tag%3A58088f5f0909150077ca2bc6%22%2C%22lang%3Aen%22%2C%22t%3Atutorial%22%5D - Different unity tutorials
+  - https://www.youtube.com/watch?v=2MImqNvgrNg - Tutorial about 2d platformers to know what to look for 
+  - https://www.youtube.com/watch?v=VeJl4MjAPks - Tutorial for moving platforms
+  - https://www.youtube.com/watch?v=zc8ac_qUXQY&t=681s - Start menu
+  - Older collegue for setting up the animator(had problems with that)
+  - Graphics music from the asset store
  
