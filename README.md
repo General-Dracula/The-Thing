@@ -6,7 +6,7 @@
  
  WebGL Build: https://general-dracula.github.io/The-Thing/
  
- Video Presentation: https://youtu.be/5sznAFs0ROA
+ Video Presentation: https://youtu.be/ElNDPYQ-5mY
  
  Sources:
   - https://learn.unity.com/search/?k=%5B%22tag%3A58088f5f0909150077ca2bc6%22%2C%22lang%3Aen%22%2C%22t%3Atutorial%22%5D - Different unity tutorials
